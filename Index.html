@@ -10,6 +10,13 @@
   <h1>minha primeira Ia </h1>
 
   <p>E vai ser a melhor.</p>
-<button>Clique aqui</button>
+<button onclick="mostrarMensagem()">Clique aqui</button>
+
+<script>
+function mostrarMensagem() {
+  alert("Funcionou! 🚀");
+  document.getElementById("texto").textContent = "Você acabou de programar! 🚀";
+}
+</script>
 </body>
 </html>
